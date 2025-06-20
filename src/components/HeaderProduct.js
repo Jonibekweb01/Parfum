@@ -41,19 +41,19 @@ export default function HeaderProduct() {
       <div className={`burger-menu ${menuOpen ? "open" : ""}`}>
         <ul className="menu-list">
           <li>
-            <Link to="/category/electronics">📱 Elektronika</Link>
+            <Link to="/category/electronics">Elektronika</Link>
           </li>
           <li>
-            <Link to="/category/fashion">👗 Ayollar kiyimlari</Link>
+            <Link to="/category/fashion">Ayollar kiyimlari</Link>
           </li>
           <li>
-            <Link to="/category/men">👔 Erkaklar kiyimlari</Link>
+            <Link to="/category/men">Erkaklar kiyimlari</Link>
           </li>
           <li>
-            <Link to="/category/home">🏠 Uy va ro‘zg‘or buyumlari</Link>
+            <Link to="/category/home">Uy va ro‘zg‘or buyumlari</Link>
           </li>
           <li>
-            <Link to="/category/toys">🧸 Bolalar o‘yinchoqlari</Link>
+            <Link to="/category/toys">Bolalar o‘yinchoqlari</Link>
           </li>
         </ul>
       </div>
