@@ -1,5 +1,7 @@
 import React from "react";
 import MainImg from "../assets/MainImg.png";
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function MainHome() {
   return (
     <main>

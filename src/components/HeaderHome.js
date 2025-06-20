@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/responsive.css";
 import { Link } from "react-router-dom";
 import logo from "../assets/Logo.svg";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 
 export default function HeaderHome() {
   return (

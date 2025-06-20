@@ -1,6 +1,8 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import "../styles/responsive.css";
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function FilteredProducts({ filteredProducts }) {
   return (
     <>

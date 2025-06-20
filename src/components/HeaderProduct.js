@@ -3,7 +3,8 @@ import burger from "../assets/burger.svg";
 import logo from "../assets/product-logo.svg";
 import search from "../assets/carbon_search.svg";
 import { Link } from "react-router-dom";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function HeaderProduct() {
   return (
     <header className="product-header">

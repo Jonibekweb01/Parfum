@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaHome, FaShoppingCart, FaUser } from "react-icons/fa";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function FooterProduct() {
   return (
     <div style={styles.footer}>

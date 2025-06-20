@@ -1,5 +1,6 @@
 import React from "react";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function MainSectionProduct({ onFilterChange }) {
   const handleChange = (e) => {
     onFilterChange(e.target.value);
