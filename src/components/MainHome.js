@@ -9,7 +9,7 @@ export default function MainHome() {
             <img
               src={MainImg}
               alt="Img of the section"
-              width={400}
+              width={380}
               height={570}
             />
           </div>
