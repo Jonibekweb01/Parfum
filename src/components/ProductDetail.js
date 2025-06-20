@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function ProductDetail() {
   const { id } = useParams();
 

@@ -1,7 +1,8 @@
 import { FaPlus } from "react-icons/fa";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function ProductCard({ name, price, image, about }) {
   const { addToCart } = useCart();
 

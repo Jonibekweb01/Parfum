@@ -4,7 +4,8 @@ import HeaderProduct from "../components/HeaderProduct";
 import FooterProduct from "../components/FooterProduct";
 import MainProduct from "./MainProduct";
 import { allProducts } from "../data/parfumes";
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function Products() {
   const location = useLocation();
   const showMainProduct = location.pathname === "/products";

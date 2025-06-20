@@ -1,5 +1,6 @@
 import React from 'react';
-
+import "../styles/global.css";
+import "../styles/responsive.css";
 export default function FilterBar({ onFilterChange }) {
   return (
     <div className="filter-bar">
