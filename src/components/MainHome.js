@@ -11,7 +11,7 @@ export default function MainHome() {
             <img
               src={MainImg}
               alt="Img of the section"
-              width={380}
+              width={360}
               height={570}
             />
           </div>
