@@ -1,0 +1,148 @@
+.header_inner {
+    text-align: center;
+    padding: 25px 0;
+}
+
+
+/* chance_inner */
+
+.chance_inner {
+    padding: 20px 0 0 0;
+}
+
+/* footer  */
+
+.footer_inner_box {
+    width: 230px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer_inner_text {
+    color: #262825;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.footer_inner_link {
+    text-decoration: none;
+    padding: 17px 0px;
+    display: block;
+    background-color: #262825;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* product header  */
+
+
+.product-header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.product-header_inner_left_btn,
+.product-header_inner_right_btn {
+    border: none;
+    background-color: transparent;
+}
+
+/* sellers_inner */
+
+.sellers_inner {
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.sellers_inner_left>h2 {
+    color: #262825;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+
+.sellers_inner_left>p {
+    color: #808080;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.sellers_inner_select {
+    padding: 17px 20px;
+    background-color: #262825;
+    color: #fff;
+    border-radius: 0px 10px 0 10px;
+}
+
+
+/* product-card */
+
+.products-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 151px;
+    box-shadow: 0 14px 23px 0 #e7e7e7;
+    padding: 16px;
+    text-align: start;
+}
+
+.card_inner {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product-card-title {
+    font-size: 17px;
+    color: #262825;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.product-card-span {
+    display: block;
+    font-size: 14px;
+    color: #7C7C7C;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.product-card-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.product-card-text {
+    text-align: center;
+    font-size: 14px;
+    color: #7C7C7C;
+    margin: 19px 0 0 0;
+    font-weight: 600;
+}
+
+.product-card-btn {
+    position: absolute;
+    top: 120px;
+    right: -10px;
+    border: none;
+    background-color: black;
+    padding: 10px 13px;
+    border-radius: 1000px;
+}
+
+.product-card-btn>svg {
+    margin-top: 3px;
+}
